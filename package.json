@@ -1,15 +1,18 @@
 {
-  "name": "@edx/react-unit-test-utils",
+  "name": "@edx/js-gaes",
   "version": "1.0.0-semantically-released",
-  "description": "React toolkit for writing and testing react components",
-  "main": "dist/index.js",
+  "description": "Trust-worthy key-stores in for JS",
   "release": {
-    "branches": ["main", "next"]
+    "branches": [
+      "main",
+      "next"
+    ]
   },
   "files": [
     "/dist"
   ],
   "scripts": {
+    "start": "fedx-scripts webpack-dev-server --progress",
     "build": "make build",
     "lint": "fedx-scripts eslint --ext .jsx,.js src/",
     "lint-fix": "fedx-scripts eslint --fix --ext .jsx,.js src/",
@@ -22,9 +25,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openedx/react-unit-test-utils.git"
+    "url": "git+https://github.com/muselesscreator/js-gaes.git"
   },
-  "homepage": "https://github.com/openedx/react-unit-test-utils#README",
+  "homepage": "https://github.com/muselesscreator/js-gaes#README",
   "browserslist": [
     "extends @edx/browserslist-config"
   ],
@@ -50,6 +53,7 @@
     "es-check": "^2.3.0",
     "husky": "2.7.0",
     "identity-obj-proxy": "^3.0.0",
+    "interpolate-html-plugin": "^4.0.0",
     "jest": "^26.6.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
